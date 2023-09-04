@@ -2,6 +2,7 @@ package julian.development.detodosa;
 
 import javax.swing.JOptionPane;
 
+
 public class GestionProductos extends javax.swing.JInternalFrame {
 
     public GestionProductos() {
@@ -261,10 +262,8 @@ public class GestionProductos extends javax.swing.JInternalFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSalirActionPerformed
-        int option = JOptionPane.showConfirmDialog(GestionProductos.this, "¿Desea salir del sistema?", "A T E N C I O N ! !", JOptionPane.YES_NO_OPTION);
-        if (option == JOptionPane.YES_OPTION) {
-            System.exit(0);
-        }
+        setVisible(false);
+        new Menu().setVisible(true);
 
     }//GEN-LAST:event_jButtonSalirActionPerformed
 
