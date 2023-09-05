@@ -1,6 +1,7 @@
-package julian.development.detodosa;
+package vistas;
 
 import javax.swing.table.DefaultTableModel;
+import clases.*;
 
 public class BusquedaPorNombre extends javax.swing.JInternalFrame {
 

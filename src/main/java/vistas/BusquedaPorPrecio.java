@@ -1,5 +1,6 @@
-package julian.development.detodosa;
+package vistas;
 
+import clases.Producto;
 import javax.swing.table.DefaultTableModel;
 
 public class BusquedaPorPrecio extends javax.swing.JInternalFrame {

@@ -1,7 +1,9 @@
-package julian.development.detodosa;
+package vistas;
 
+import clases.*;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+
 
 public class BusquedaPorCategoria extends javax.swing.JInternalFrame {
 

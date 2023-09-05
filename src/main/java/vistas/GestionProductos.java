@@ -1,4 +1,5 @@
-package julian.development.detodosa;
+package vistas;
+import clases.*;
 
 import javax.swing.JOptionPane;
 

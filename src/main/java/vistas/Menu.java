@@ -1,7 +1,9 @@
-package julian.development.detodosa;
+package vistas;
 
+import clases.Categoria;
 import java.util.TreeSet;
 import javax.swing.JOptionPane;
+import clases.Producto;
 
 public class Menu extends javax.swing.JFrame {
 
